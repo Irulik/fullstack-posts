@@ -5,9 +5,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "build": "npm run dev",
-    "deploy": "gh-pages -d build main",
+  "scripts": { 
+    "deploy": "npm run build && gh-pages -d build -b main",
     "dev": "nodemon index.js"
   },
   "keywords": [],
