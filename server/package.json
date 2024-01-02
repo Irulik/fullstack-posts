@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run dev",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build main",
     "dev": "nodemon index.js"
   },
   "keywords": [],
