@@ -1,10 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "homepage": "https://Irulik.github.io/fullstack-posts",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "nodemon index.js"
   },
   "keywords": [],
